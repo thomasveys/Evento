@@ -1,0 +1,25 @@
+
+<ion-content>
+    <div class="logo"></div>
+    <div class="intro">
+      {{ 'WELCOME_INTRO' | translate }}
+    </div>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input  [(ngModel)]="user.email"  type="text"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input  [(ngModel)]="user.password"  type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Repeat password</ion-label>
+      <ion-input  [(ngModel)]="user.password2"  type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <button ion-button block (click)="register()" class="register">{{ 'SIGNUP' | translate }}</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,39 @@
+page-login {
+
+  
+    .logo {
+      margin: auto;
+      background: url('../assets/img/O.png') no-repeat;
+      background-size: 100%;
+      width: 70%;
+      height: 228px;
+      margin-top: -20px;
+    }
+    .intro {
+      font-size: 18px;
+      font-weight: lighter;
+      max-width: 80%;
+      margin: auto;
+      text-align: center;
+    }
+   
+    button.login {
+      margin-top: 25px;
+      background-color: rgb(0, 169, 157);
+      box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+      color: white;
+      width: 80%;
+      margin: 0 auto;
+position: relative;  
+      &.activated {
+        background-color:white;
+        color: rgb(0, 169, 157);
+  
+      }
+    }
+    .list-ios > .item-block:first-child
+    {
+        border-top: none;
+    }
+  }
+  

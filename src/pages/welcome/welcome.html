@@ -1,0 +1,12 @@
+<ion-content scroll="false">
+    <div class="logo"></div>
+    <div class="intro">
+      {{ 'WELCOME_INTRO' | translate }}
+    </div>
+  <div padding>
+    <button ion-button block (click)="signup()" class="signup">{{ 'SIGNUP' | translate }}</button>
+    <button ion-button block (click)="login()" class="login">{{ 'LOGIN' | translate }}</button>
+  </div>
+  <div class="bottom"></div>
+
+</ion-content>
